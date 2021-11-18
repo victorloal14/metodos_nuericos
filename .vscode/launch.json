@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Newton_Raphson",
+            "request": "launch",
+            "mainClass": "abierto.Newton_Raphson",
+            "projectName": "metodos_nuericos_3e9ccaac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operar_polinomio",
+            "request": "launch",
+            "mainClass": "polinomios.Operar_polinomio",
+            "projectName": "metodos_nuericos_3e9ccaac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Funcion",
+            "request": "launch",
+            "mainClass": "funciones.Funcion",
+            "projectName": "metodos_nuericos_3e9ccaac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Simpson",
+            "request": "launch",
+            "mainClass": "integral.Simpson",
+            "projectName": "metodos_nuericos_3e9ccaac"
+        },
+        {
+            "type": "java",
+            "name": "Launch prueva",
+            "request": "launch",
+            "mainClass": "prueva",
+            "projectName": "metodos_nuericos_3e9ccaac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ed_euler",
+            "request": "launch",
+            "mainClass": "ecuacion_diferencial.Ed_euler",
+            "projectName": "metodos_nuericos_3e9ccaac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lagrange",
+            "request": "launch",
+            "mainClass": "interpolacion.Lagrange",
+            "projectName": "metodos_nuericos_3e9ccaac"
+        }
+    ]
+}

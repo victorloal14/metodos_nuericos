@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "libreria/ext-1.1.1.jar",
+            "libreria/jep-2.4.1.jar",
+            "libreria/djep-1.0.0.jar"
+        ],
+        "exclude": [
+            "libreria/lib/Jama-1.0.2.jar"
+        ]
+    }
+}
