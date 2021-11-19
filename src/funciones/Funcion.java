@@ -13,6 +13,7 @@ public class Funcion {
         jep.addStandardConstants();
         jep.addComplex();
         jep.addStandardFunctions();
+        this.fun = fun;
         jep.parseExpression(fun);
     }
     public Funcion ( String fun,String x) {;
@@ -31,9 +32,9 @@ public class Funcion {
         
         return resultado;
     }
-    public double eval_xy (double x,double y){
-        jep.addVariable("x", x);
-        jep.addVariable("y", y);
+    public double eval_xy (double x,double y,String x_,String y_){
+        jep.addVariable(x_, x);
+        jep.addVariable(y_, y);
         resultado = jep.getValue();
         if(jep.hasError()){
             System.out.println("error");  
@@ -51,7 +52,7 @@ public class Funcion {
     }
     public static void main(String[] args) {
         
-        Funcion f = new Funcion("41.666666666666686*x^3-27.5*x^2+6.833333333333336*x^1+1.0","x");
+        Funcion f = new Funcion("(-(((29.8*x)^(1/2))*0.05^2)/(2.0^2) )","x");
      
         System.out.println(f.eval_x(0.1));
         System.out.println(f.getFuncion());    
